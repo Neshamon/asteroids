@@ -19,6 +19,7 @@
           packages = with pkgs; [ python313 go gotools ] ++
             (with pkgs.python313Packages; [
               pip
+              pygame
               venvShellHook
             ]);
 
