@@ -1,4 +1,3 @@
 .direnv/
 .venv/
-.go/
-books/
+__pycache__/
