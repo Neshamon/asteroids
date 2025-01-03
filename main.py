@@ -13,7 +13,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
-        clock.tick()
+        clock.tick(60)
         pygame.display.flip()
 
 if __name__ == "__main__":
